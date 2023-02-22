@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function MyNutritionComponent ({label, image, calories,mealType,cuisineType ,dietLabels,dishType,ingridients}){
+function MyNutritionComponent ({label, image, calories,mealType,cuisineType ,dietLabels,dishType,ingridients,totalWeight}){
     return(
    <div className="container2">
    
@@ -13,6 +13,8 @@ function MyNutritionComponent ({label, image, calories,mealType,cuisineType ,die
       <Card.Body>
         <Card.Title>cal: {calories.toFixed()}</Card.Title>
         <Card.Title>Dish type: {dishType}</Card.Title>
+        <Card.Title>Weight: {totalWeight.toFixed()}</Card.Title>
+
 
         <Card.Text>
           <ul className='list'>
