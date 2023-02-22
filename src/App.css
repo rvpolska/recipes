@@ -19,8 +19,13 @@ video {
   background-color: transparent;
   margin-left: -50px;
   box-shadow: inset 0px 0px 0px 4px #ddd6e8;
-  }
+  border: 1px solid black;
   
+  }
+
+  ::placeholder{
+    color: black;
+  }
 
   .container {
     display: flex;
