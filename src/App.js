@@ -76,6 +76,7 @@ function App() {
   dietLabels={element.recipe.dietLabels}
   dishType={element.recipe.dishType}
   ingridients = {element.recipe.ingredientLines}
+  totalWeight = {element.recipe.totalWeight}
   />
 )
 )}
